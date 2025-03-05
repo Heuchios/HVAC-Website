@@ -142,8 +142,19 @@ body {
     padding: 20px;
     font-size: 14px;
 }
-.logo {
-    height: 50px;
-    vertical-align: middle;
-    margin-right: 10px;
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: #005f99;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
 }
+
+.logo {
+    height: 50px; /* Adjust size */
+    margin-right: 10px; /* Adds space between logo and text */
+}
+
