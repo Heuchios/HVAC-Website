@@ -43,10 +43,17 @@ body {
 .hero {
     text-align: center;
     background: url('images/hvac-banner.jpg') no-repeat center center/cover;
-    color: white;
+    color: black; /* Darker text for better visibility */
     padding: 150px 20px;
     font-size: 35px;
     font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #222; /* Darker color for better readability */
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.5); /* Light shadow for contrast */
 }
 
 /* Services Section */
@@ -135,4 +142,3 @@ body {
     padding: 20px;
     font-size: 14px;
 }
-
