@@ -142,3 +142,8 @@ body {
     padding: 20px;
     font-size: 14px;
 }
+.logo {
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
